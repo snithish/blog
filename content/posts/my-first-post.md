@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2018-08-30T21:29:59+05:30
 title = "First Post"
 slug = "first-post" 
