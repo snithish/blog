@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm install -g less uglifycss && hugo --minify"
+command = "npm install -g less uglifycss postcss && hugo --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.48"
