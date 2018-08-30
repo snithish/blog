@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+command = "npm install -g less uglifycss && hugo --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.48"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
